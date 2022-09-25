@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    background: #116179;
+}
+.title {
+    text-align: center;
+    margin: 10px;
+    font-size: 25px;
+    color: #c4dbf6;
+}
+.sec1 {
+    padding: 10px;
+    margin: auto;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #b23850;
+    border-radius: 10px;
+}
+.notesTitle{
+    padding: 5px 10px;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e7e3d4;
+}
+.notesTitle:focus {
+    outline: none
+}
+#input{
+    margin: 10px auto;
+    padding: 5px;
+    max-width: 280px;
+    min-width: 280px;
+    max-height: 40vh;
+    min-height: 10vh;
+    font-size: 13px;
+    border: none;
+    background-color: #e7e3d4;
+    border-radius: 10px;
+}
+#input:focus {
+    outline: none
+}
+.btns {
+    margin: auto;
+}
+.btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    background-color: #c4dbf6;
+}
+.noteTitle {
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+    color: #c4dbf6;
+}
+.nullText {
+    text-align: center;
+    color: #f7f7f8;
+    font-size: 14px;
+}
+.notesList {
+    margin: 5px;
+    display: grid; 
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
+}
+.note {
+    padding: 10px;
+    height: fit-content;
+    border-radius: 10px;
+    background-color: #b23850;
+    margin: 5px;
+}
+.note_title {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #c4dbf6;
+}
+.note_content{
+    padding: 5px;
+    height: 200px;
+    overflow: auto;
+    margin: 10px 0;
+    background-color: #e7e3d4;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    border-radius: 5px;
+    font-size: 14px; 
+}
+.sec2 {
+    margin-bottom: 80px;
+}
